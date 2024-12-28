@@ -1,0 +1,102 @@
+
+.nav-top{
+    position: relative;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bolder;
+    /* position: relative; */
+}
+/* bottom header */
+.nav-bottom{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+   background: rgb(27, 27, 27);
+   height: 85px;
+   color: white;
+}
+
+
+
+
+.nav-container{
+    /* position: sticky; */
+    background: black;
+    /* top: 0px; */
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.nav-container .logo{
+    width: 75px;
+    /* background-color: rgb(67, 132, 190); */
+    padding-left: 20px;
+    margin-right: 25px;
+}
+.nav-container img{
+    width: 100%;
+}
+.nav-container ul{
+    display: flex;
+    color: white;
+    list-style: none; /* bullet removal */
+    padding: 0;
+    margin: 0;
+}
+.nav-container ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 16px;
+    font-size: 17px;
+    font-weight: bold;
+}
+/*  */
+.nav-left{
+    margin-left: 600px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background: rgb(25, 25, 193); */
+}
+.nav-left button{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border: 2px solid rgb(92, 88, 88);
+    background: black;
+    color: white;
+    width: 140px;
+    padding: 4px 10px;
+}
+.nav-left button:hover{
+    border: 2px solid #fff;
+}
+
+.nav-left input{
+    border: none;
+    background:fixed;
+    color: white;
+    width: 100%;
+}
+.nav-left button i{
+    padding: 9px 10px;
+}
+.nav-left input::placeholder{
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.icons {
+     margin: 1px; 
+}  
+.icons:hover {
+    background: rgb(96, 88, 88);
+    padding: 10px;
+    border-radius: 19px;
+}
